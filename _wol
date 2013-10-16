@@ -8,7 +8,6 @@ _bin_wol=$(which wol)
 _wol() {
 	local -a cmds
 	if (( CURRENT == 2 ));then
-    cmds=('init' 'update' 'upgrade' 'commit')
 		set -A cmds $($_bin_wol config list)
     _describe -t commands "subcommand" cmds
   
