@@ -17,9 +17,7 @@ CONFIG_FILE = os.environ['HOME'] + '/.wol/config.json'
 DEF_IPADDR = '<broadcast>'
 DEF_PORT = 9
 
-_usage = """                                                                      
-./wolcmd [options] <MAC address>                                                  
-"""
+_usage = 'wol [options] <MAC address>'
 _usage = _usage + "\n\nConfigFile: " + CONFIG_FILE
 
 def get_config(config_f=CONFIG_FILE):
