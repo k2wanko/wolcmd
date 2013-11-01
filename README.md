@@ -10,9 +10,9 @@ Pythonで書いてるから
 
 ##Install
 ```
-git clone https://github.com/k2wanko/wolcmd && wolcmd
+git clone https://github.com/k2wanko/wolcmd && cd wolcmd
 sudo cp ./bin/wol /usr/local/bin
-cp _wol $fpath[1]
+cp ./_wol $fpath[1]
 ```
 
 ##Usage
